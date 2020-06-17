@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 219, 219);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+span {
+  font-size: 40px;
+  margin: 0 20px;
+  color: green;
+}
+img {
+  width: 400px;
+  height: 350px;
+  margin-left: 30%;
+}
+button {
+  width: 200px;
+  margin-left: 40%;
+  font-size: 15px;
+  padding: 5px;
+  background-color: rgb(78, 143, 78);
+  letter-spacing: 2px;
+}
+.figure-container {
+  fill: red;
+  stroke: red;
+  stroke-width: 5px;
+  stroke-linecap: round;
+}
+.body-parts {
+  display: none;
+}
+#guess {
+  font-size: 20px;
+  color: green;
+}
+#won {
+  display: none;
+  color: green;
+  font-size: 30px;
+}
+#lose {
+  display: none;
+  color: red;
+  font-size: 30px;
+}

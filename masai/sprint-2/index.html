@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman game</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Hangman game the guesser</h1>
+    <h2>Know our <span>Nature</span> the wild and friendly.</h2>
+    <img src="/images/159238729697184017.png" alt="" srcset="" />
+    <div class="hangFigure">
+      <svg height="300" width="250" class="figure-container">
+        <!-- The pole -->
+
+        <line x1="60" y1="20" x2="140" y2="20" />
+        <line x1="140" y1="20" x2="140" y2="50" />
+        <line x1="60" y1="20" x2="60" y2="230" />
+        <line x1="20" y1="230" x2="100" y2="230" />
+
+        <!-- The Head -->
+        <circle cx="140" cy="70" r="20" class="body-parts" />
+
+        <!-- Body -->
+        <line x1="140" y1="90" x2="140" y2="150" class="body-parts" />
+        <!-- Arms -->
+        <line x1="140" y1="120" x2="120" y2="100" class="body-parts" />
+        <line x1="140" y1="120" x2="160" y2="100" class="body-parts" />
+
+        <!-- Legs -->
+        <line x1="140" y1="150" x2="120" y2="180" class="body-parts" />
+        <line x1="140" y1="150" x2="160" y2="180" class="body-parts" />
+      </svg>
+    </div>
+    <p id="guess">Guess the name according to hint below.</p>
+
+    <!-- Lose -->
+    <p id="lose">Your tried hard..Guess Again !!!!!</p>
+
+    <!-- won -->
+    <p id="won">You won !! Good guess.</p>
+
+    <!-- Filler -->
+    <p id="guesedWord">Guess words</p>
+    <!-- button -->
+    <button>Play again</button>
+    <script src="/script.js"></script>
+  </body>
+</html>
